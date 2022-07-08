@@ -1,0 +1,53 @@
+07-06-2022 14:33:54 StartupInfoLogger.java INFO  [restartedMain] c.z.ExcelDataImportToDatabaseApplication 55 -Starting ExcelDataImportToDatabaseApplication using Java 17.0.2 on DESKTOP-A2LCVG5 with PID 15656 (G:\POC\ExcelDataImportToDatabase\target\classes started by KISHORE in G:\POC\ExcelDataImportToDatabase)
+07-06-2022 14:33:54 SpringApplication.java INFO  [restartedMain] c.z.ExcelDataImportToDatabaseApplication 634 -No active profile set, falling back to 1 default profile: "default"
+07-06-2022 14:33:54 DeferredLog.java INFO  [restartedMain] o.s.b.d.r.ChangeableUrls 255 -The Class-Path manifest attribute in C:\Users\KISHORE\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.5.0.0\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/KISHORE/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.5.0.0/oraclepki.jar
+07-06-2022 14:33:54 DeferredLog.java INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-06-2022 14:33:54 DeferredLog.java INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-06-2022 14:33:56 RepositoryConfigurationDelegate.java INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate 132 -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-06-2022 14:33:56 RepositoryConfigurationDelegate.java INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate 201 -Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interfaces.
+07-06-2022 14:33:57 TomcatWebServer.java INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer 108 -Tomcat initialized with port(s): 9898 (http)
+07-06-2022 14:33:57 DirectJDKLog.java INFO  [restartedMain] o.a.c.c.StandardService 173 -Starting service [Tomcat]
+07-06-2022 14:33:57 DirectJDKLog.java INFO  [restartedMain] o.a.c.c.StandardEngine 173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+07-06-2022 14:33:57 DirectJDKLog.java INFO  [restartedMain] o.a.c.c.C.[.[.[/] 173 -Initializing Spring embedded WebApplicationContext
+07-06-2022 14:33:57 ServletWebServerApplicationContext.java INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext 292 -Root WebApplicationContext: initialization completed in 2753 ms
+07-06-2022 14:33:57 LogHelper.java INFO  [restartedMain] o.h.j.i.u.LogHelper 31 -HHH000204: Processing PersistenceUnitInfo [name: default]
+07-06-2022 14:33:58 Version.java INFO  [restartedMain] o.h.Version 44 -HHH000412: Hibernate ORM core version 5.6.9.Final
+07-06-2022 14:33:58 JavaReflectionManager.java INFO  [restartedMain] o.h.a.c.Version 56 -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-06-2022 14:33:58 HikariDataSource.java INFO  [restartedMain] c.z.h.HikariDataSource 110 -HikariPool-1 - Starting...
+07-06-2022 14:33:58 DriverDataSource.java WARN  [restartedMain] c.z.h.u.DriverDataSource 70 -Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+07-06-2022 14:33:59 HikariDataSource.java INFO  [restartedMain] c.z.h.HikariDataSource 123 -HikariPool-1 - Start completed.
+07-06-2022 14:33:59 Dialect.java INFO  [restartedMain] o.h.d.Dialect 175 -HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+07-06-2022 14:34:01 JtaPlatformInitiator.java INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator 52 -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-06-2022 14:34:01 AbstractEntityManagerFactoryBean.java INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean 437 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-06-2022 14:34:02 JpaBaseConfiguration.java WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 219 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-06-2022 14:34:03 OptionalLiveReloadServer.java INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer 58 -LiveReload server is running on port 35729
+07-06-2022 14:34:03 TomcatWebServer.java INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer 220 -Tomcat started on port(s): 9898 (http) with context path ''
+07-06-2022 14:34:03 StartupInfoLogger.java INFO  [restartedMain] c.z.ExcelDataImportToDatabaseApplication 61 -Started ExcelDataImportToDatabaseApplication in 9.329 seconds (JVM running for 10.813)
+07-06-2022 14:34:03 DirectJDKLog.java INFO  [http-nio-9898-exec-1] o.a.c.c.C.[.[.[/] 173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-06-2022 14:34:03 FrameworkServlet.java INFO  [http-nio-9898-exec-1] o.s.w.s.DispatcherServlet 525 -Initializing Servlet 'dispatcherServlet'
+07-06-2022 14:34:03 FrameworkServlet.java INFO  [http-nio-9898-exec-1] o.s.w.s.DispatcherServlet 547 -Completed initialization in 2 ms
+07-06-2022 14:34:03 MasterDataController.java INFO  [http-nio-9898-exec-1] c.z.c.MasterDataController 47 -MasterDataController dataSave
+07-06-2022 14:34:03 MasterDataUtil.java INFO  [http-nio-9898-exec-1] c.z.u.MasterDataUtil 35 -Try block executed
+07-06-2022 14:34:04 MasterDataUtil.java INFO  [http-nio-9898-exec-1] c.z.u.MasterDataUtil 77 -Tennure missing
+07-06-2022 14:34:04 MasterDataUtil.java INFO  [http-nio-9898-exec-1] c.z.u.MasterDataUtil 85 -ROI missing
+07-06-2022 14:34:04 MasterDataUtil.java INFO  [http-nio-9898-exec-1] c.z.u.MasterDataUtil 77 -Tennure missing
+07-06-2022 14:34:04 MasterDataUtil.java ERROR [http-nio-9898-exec-1] c.z.u.MasterDataUtil 120 -Error occured in catch block
+07-06-2022 14:34:05 MasterDataController.java ERROR [http-nio-9898-exec-1] c.z.c.MasterDataController 53 -Records not saved into Database
+07-06-2022 14:34:05 MasterDataController.java INFO  [http-nio-9898-exec-1] c.z.c.MasterDataController 56 -Records saved into database
+07-06-2022 14:34:40 MasterDataController.java INFO  [http-nio-9898-exec-2] c.z.c.MasterDataController 85 -MasterDataController getOneTid1 
+07-06-2022 14:34:40 MasterDataController.java INFO  [http-nio-9898-exec-2] c.z.c.MasterDataController 94 -Record found 51971237
+07-06-2022 14:34:55 MasterDataController.java INFO  [http-nio-9898-exec-3] c.z.c.MasterDataController 85 -MasterDataController getOneTid1 
+07-06-2022 14:34:55 MasterDataController.java INFO  [http-nio-9898-exec-3] c.z.c.MasterDataController 90 -Record does not exist
+07-06-2022 14:34:55 AbstractHandlerExceptionResolver.java WARN  [http-nio-9898-exec-3] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver 208 -Resolved [com.zeta.exception.TidNotFoundException]
+07-06-2022 14:37:13 MasterDataController.java INFO  [http-nio-9898-exec-5] c.z.c.MasterDataController 47 -MasterDataController dataSave
+07-06-2022 14:37:13 MasterDataUtil.java INFO  [http-nio-9898-exec-5] c.z.u.MasterDataUtil 35 -Try block executed
+07-06-2022 14:37:13 MasterDataUtil.java INFO  [http-nio-9898-exec-5] c.z.u.MasterDataUtil 77 -Tennure missing
+07-06-2022 14:37:13 MasterDataUtil.java INFO  [http-nio-9898-exec-5] c.z.u.MasterDataUtil 85 -ROI missing
+07-06-2022 14:37:13 MasterDataUtil.java INFO  [http-nio-9898-exec-5] c.z.u.MasterDataUtil 77 -Tennure missing
+07-06-2022 14:37:13 MasterDataUtil.java ERROR [http-nio-9898-exec-5] c.z.u.MasterDataUtil 120 -Error occured in catch block
+07-06-2022 14:37:13 MasterDataController.java ERROR [http-nio-9898-exec-5] c.z.c.MasterDataController 53 -Records not saved into Database
+07-06-2022 14:37:13 MasterDataController.java INFO  [http-nio-9898-exec-5] c.z.c.MasterDataController 56 -Records saved into database
+07-06-2022 14:46:51 SpringApplicationAdminMXBeanRegistrar.java INFO  [RMI TCP Connection(21)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 -Application shutdown requested.
+07-06-2022 14:46:51 AbstractEntityManagerFactoryBean.java INFO  [RMI TCP Connection(21)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean 651 -Closing JPA EntityManagerFactory for persistence unit 'default'
+07-06-2022 14:46:51 HikariDataSource.java INFO  [RMI TCP Connection(21)-127.0.0.1] c.z.h.HikariDataSource 350 -HikariPool-1 - Shutdown initiated...
+07-06-2022 14:46:51 HikariDataSource.java INFO  [RMI TCP Connection(21)-127.0.0.1] c.z.h.HikariDataSource 352 -HikariPool-1 - Shutdown completed.

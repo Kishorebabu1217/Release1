@@ -75,6 +75,7 @@ public class MasterDataController {
 			resp=new ResponseEntity<String>(message,HttpStatus.OK);
 		}else {
 			resp=new ResponseEntity<List<MasterData>>(masterDataList,HttpStatus.OK);
+			System.out.println("This is Java Project");
 		}
 		return resp;
 	}

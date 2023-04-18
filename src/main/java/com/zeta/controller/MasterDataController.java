@@ -90,6 +90,7 @@ public class MasterDataController {
 			logger.info("Record does not exist");
 		    throw new TidNotFoundException();
 			System.out.println("Records exist in the database");
+			System.out.println("Welcome to GITHUB");
 		}
 		else {
 			logger.info("Record found "+tId);
